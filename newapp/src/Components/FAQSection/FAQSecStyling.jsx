@@ -7,31 +7,31 @@ flex-direction: column;
 height: 100%;
 width: 100%;
 zIndex: 2;
-background-color: pink;
-margin-top: 210vh;
+background-color: #FFFFF;
+margin-top: 115vh;
 .FAQ{
-    background-color: #444444;
+    background-color: #FFFFF;
     padding:50px;
     }
     body{
-    font-family: 'Dongle', sans-serif;
+    font-family: 'Belleza', sans-serif;
     margin:0;
     
     }
     h1{
-      color:black;
+      color:#00008B;
       text-align: center;
       font-weight: bold;
       font-size:3.5rem;
     }
     h3{
-      color:black;
+      color:#000000;
       font-weight: bold;
       font-size:1.75rem;
     
     }
     p{
-      color:white;
+      color:#FF2775;
       font-size:1.5rem;
     }
     

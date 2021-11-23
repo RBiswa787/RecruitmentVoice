@@ -4,7 +4,7 @@ import { ContactFormStyling } from './ContactFormStyling'
 export default function ContactForm() {
     return (
             <ContactFormStyling>
-            <div className = "left" >
+            <div className = "left" id="Contact">
                 <h1>Get in Touch</h1>
                 <input type = "text" placeholder ="Name" class ="name" /> 
                 <input type = "email" placeholder ="Email" class ="email" /> <br />

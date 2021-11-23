@@ -14,11 +14,10 @@ const TopBarMain = () => {
                     <LogoContainer>Recruitr</LogoContainer>
                     <NavRoutes>
                         <NavButton>Home</NavButton>
-                        <NavButton>Features</NavButton>
-                        <NavButton>Support</NavButton>
-                        <NavButton>Contact</NavButton>
+                        <NavButton><a href="#Questions">Support</a></NavButton>
+                        <NavButton><a href="#Contact">Contact</a></NavButton>
                     </NavRoutes>
-                    <SignInButton type="button" onClick={handleClick}>SignIn</SignInButton>
+                    <SignInButton type="button" onClick={handleClick}>Sign In</SignInButton>
         </TopBar>
     )
 }

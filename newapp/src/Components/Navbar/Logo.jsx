@@ -13,5 +13,5 @@ margin-left: 10vw;
 margin-top: 1.4rem;
 white-space: prewrap;
 flex-direction: column;
-font-family: GrandHotel-Regular;
+font-family: Grand Hotel;
 `

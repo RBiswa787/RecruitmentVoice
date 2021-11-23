@@ -5,13 +5,14 @@ import { useHistory } from 'react-router-dom';
 const SidebarContent = () => {
   const history = useHistory();
   const handleClickActJob = () => history.push('/recr_actv_jobs');
+  const handleClickDashboard = () => history.push('/dashboard');
   return (
     <div>
       <SidebarContentStyle>
       <ul>
         <li>
           <a href="#">
-            <span class="item">Dashboard</span>
+            <span class="item" onClick = {handleClickDashboard}>Dashboard</span>
           </a>
         </li>
                 

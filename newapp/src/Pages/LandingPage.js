@@ -1,5 +1,4 @@
 import React from 'react'
-import FeatureSecComponent from '../Components/FeatureSection/FeatureSecComponent'
 import Navbar_Component from '../Components/Navbar/Navbar_Component'
 import styled from 'styled-components'
 import FAQSecComponent from '../Components/FAQSection/FAQSectionComponent'
@@ -9,7 +8,6 @@ const LandingPage = () => {
     return (
         <LandingPageSection>
             <Navbar_Component/>
-            <FeatureSecComponent/>
             <FAQSecComponent/>
             <FooterSecComponent/>
         </LandingPageSection>  

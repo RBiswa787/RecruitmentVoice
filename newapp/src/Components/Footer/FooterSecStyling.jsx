@@ -7,7 +7,7 @@ flex-direction: column;
 height: 100%;
 width: 100%;
 zIndex: 2;
-margin-top: 300vh;
+margin-top: 230vh;
 background: #595555;
 .Copyright{
     font-family: Belleza;

@@ -1,7 +1,10 @@
 import React from 'react'
 import { CSidebarContentStyle } from './CSidebarContentStyle';
+import { useHistory } from 'react-router-dom';
 
 const CSidebarContent = () => {
+  const history = useHistory();
+  const handleClickFindJob = () => history.push('/new_job');
   return (
     <div>
       <CSidebarContentStyle>
@@ -14,7 +17,7 @@ const CSidebarContent = () => {
                 
         <li>
           <a href="#">
-              <span class="item">Find Jobs</span>
+              <span class="item" onClick={handleClickFindJob}>Find Jobs</span>
           </a>
         </li>
       </ul>

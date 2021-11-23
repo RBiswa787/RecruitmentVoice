@@ -11,7 +11,7 @@ function SignUp() {
   const [email,setEmail] = useState("something@email.com");
   const [password,setPassword] = useState("");
  const history = useHistory();
-    const newUser = () => history.push('/choice');
+  const newUser = () => history.push('/choice');
 const onSubmit = () => {
     firebase.auth().createUserWithEmailAndPassword(email,password)
     .then(()=>alert('signed up!'))

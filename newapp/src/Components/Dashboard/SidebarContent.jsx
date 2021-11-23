@@ -1,7 +1,12 @@
 import React from 'react'
 import { SidebarContentStyle } from './SidebarContentStyle';
+import { useHistory } from 'react-router-dom';
+
 
 const SidebarContent = () => {
+  const history = useHistory();
+  const handleClickProfile = () => history.push('/recr_prof');
+  const handleClickActJob = () => history.push('/recr_actv_jobs');
   return (
     <div>
       <SidebarContentStyle>
@@ -14,12 +19,12 @@ const SidebarContent = () => {
                 
         <li>
           <a href="#">
-              <span class="item">My Profile</span>
+              <span class="item" onClick = {handleClickProfile}>My Profile</span>
           </a>
         </li>
         <li>
           <a href="#">
-              <span class="item">Active Jobs</span>
+              <span class="item" onClick ={handleClickActJob}>Active Jobs</span>
           </a>
         </li>
       </ul>

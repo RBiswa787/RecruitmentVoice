@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import user from './user.png'
 function RDashboard() {
     const history = useHistory();
-    const handleClick =  () => {history.push('/new_job')};
+    const handleClickPostNew =  () => {history.push('/new_job')};
     var name = "Name";
     var jobposted = 7;
     var appsubmit = 54;
@@ -81,7 +81,7 @@ function RDashboard() {
           <p>{jobid}</p>
           <br />
         </div>
-        <button className="btn" onClick={handleClick}>
+        <button className="btn" onClick={handleClickPostNew}>
           Post New Job
         </button>
         </RDashBoardStyle>
