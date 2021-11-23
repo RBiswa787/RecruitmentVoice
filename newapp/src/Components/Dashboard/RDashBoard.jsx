@@ -1,10 +1,10 @@
 import React from "react";
 import { RDashBoardStyle } from "./RDashBoardStyle";
+import { useHistory } from "react-router-dom";
 import user from './user.png'
 function RDashboard() {
-    function handleClick() {
-      alert("This button was clicked");
-    }
+    const history = useHistory();
+    const handleClick =  () => {history.push('/new_job')};
     var name = "Name";
     var jobposted = 7;
     var appsubmit = 54;
@@ -12,10 +12,10 @@ function RDashboard() {
     var intsche = 11;
     var username = "Jack Doe";
     var jobid = "41321";
-    var time = "11:30";
+    var time = "11:30 am";
     var date = 9;
-    var day = "thu";
-    var schedname = "Jaack";
+    var day = "Thu";
+    var schedname = "Jack Doe";
     var job = "Script Writer";
   
     return (
@@ -50,7 +50,6 @@ function RDashboard() {
         <div className="new-applications">
           <h4>New Applications</h4>
           <hr />
-          <img src={user} />
           <span>
             {username}
             <br />
