@@ -20,9 +20,9 @@ margin-top: 115vh;
     }
     h1{
       color:#00008B;
-      text-align: center;
       font-weight: bold;
       font-size:3.5rem;
+      margin-left: 10%;
     }
     h3{
       color:#000000;

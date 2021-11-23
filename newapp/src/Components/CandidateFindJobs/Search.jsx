@@ -42,7 +42,7 @@ function Search({ details }) {
             className="searchbox"
             id="input"
             type="search"
-            placeholder="Search by Job ID"
+            placeholder="Search by JobID"
             autoComplete="off"
             onChange={handleChange}
           />

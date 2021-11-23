@@ -14,9 +14,9 @@ font-family: Garamond;
 }
 .desc{
     text-align:center;
-    margin-left:40%;
+    margin-left:35%;
 }
 .head{
-   margin-left: 47%;
+   margin-left: 25%;
 }
 `

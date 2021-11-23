@@ -6,12 +6,12 @@ const FAQSecComponent = () => {
         <FAQSecStyling>
             <div class="FAQ" id="Questions">
                 <h1>Frequently Asked Questions</h1>
-                <h3><strong>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</strong></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra molestie dui. Ut vitae viverra erat, eget tincidunt purus. Donec convallis auctor ante</p>
-                <h3>Etiam ullamcorper interdum vulputate. Aenean dapibus, felis non luctus maximus, ipsum enim ultricies orci, sed aliquet nunc sapien ut enim.</h3>
-                <p>Nam in sapien nec purus hendrerit facilisis scelerisque sed nibh.</p>
-                <h3>Quisque id ex vitae urna aliquet viverra. Nulla aliquam, ex non blandit venenatis, felis ligula dignissim tortor, in posuere erat nunc sit amet ligula.</h3>
-                <p>Donec pellentesque, arcu porttitor eleifend blandit, ipsum magna venenatis lorem, et condimentum quam neque nec magna. Nam a odio augue.</p>
+                <h3><strong> What is Recruitr?</strong></h3>
+                <p>Recruitr is an online portal which aims to provide Valuable Opportunites to talented Candidates and also provide visually challenged people a platform to gain build connections and find jobs without assistance.</p>
+                <h3>What makes Recuritr unique?</h3>
+                <p>Recruitr not only provides you the opportunity to work in your dream company but also enhances accessibility for the users like voice support thus leading the idea of "Disability should never be one's shortcoming"</p>
+                <h3> Is Recruitr Paid or Free?</h3>
+                <p>Recruitr is a completely free platform which aims to provide to the best of opportunities to all.</p>
                 <br />
                 <br />
             </div>

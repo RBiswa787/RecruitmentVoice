@@ -13,6 +13,7 @@ import ApplyMain from './Components/JobsApply/ApplyMain';
 import NewJobs from './Components/PostJobs/NewJobs';
 import ActiveJobsMain from './Components/ActiveJobs/ActiveJobsMain';
 import DashboardMain from './Components/Dashboard/DashboardMain';
+import CFindJobsMain from './Components/CandidateFindJobs/CFindJobsMain';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Route path="/new_job" component={NewJobs} exact/>
       <Route path="/recr_actv_jobs" component={ActiveJobsMain} exact/>
       <Route path="/dashboard" component={DashboardMain} exact/>
+      <Route path="/cand_actv_jobs" component={CFindJobsMain} exact/>
     </Switch>
     </Router>
     </>
