@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 
 const CSidebarContent = () => {
   const history = useHistory();
-  const handleClickFindJob = () => history.push('/new_job');
+  const handleClickFindJob = () => history.push('/cand_actv_jobs');
   return (
     <div>
       <CSidebarContentStyle>

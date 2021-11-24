@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const CandidateDetailsStyle=styled.div`
 position: absolute ;
-top:46%;
+top:48%;
 text-align: center;
 font-family: Garamond;
 
@@ -17,6 +17,6 @@ font-family: Garamond;
     margin-left:35%;
 }
 .head{
-   margin-left: 25%;
+   margin-left: 30%;
 }
 `

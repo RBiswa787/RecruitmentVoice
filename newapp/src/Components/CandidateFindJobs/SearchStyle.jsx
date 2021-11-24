@@ -7,9 +7,9 @@ export const SearchStyle = styled.div`
     border: 3px solid;
     border-color: #100C3E;
     border-radius: 12px;
-    width: 50%;
+    width: 38%;
     font-size: 15px;
-    margin-left: 30%;
+    margin-left: 36%;
     margin-top:2%;
     postion: sticky;
     autoComplete:none;

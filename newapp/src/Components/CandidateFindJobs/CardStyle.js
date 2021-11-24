@@ -8,9 +8,9 @@ export const CardStyle = styled.div`
     border-radius: 10px;
     padding: 0.2%;
     padding-left: 1%;
-    width: 50%;
+    width: 30%;
     height: 20%;
-    margin-left: 30%;
+    margin-left: 40%;
     top: 30%;
   }
   .dip {
@@ -28,7 +28,7 @@ export const CardStyle = styled.div`
   }
 
   .Org {
-    display: inline;
+    display: inline flex;
     margin-right: 1%;
     color: #666666;
   }
@@ -44,6 +44,7 @@ export const CardStyle = styled.div`
     text-decoration: none;
     display: flexend;
     border: solid;
+    margin-left:-20%;
   }
 
   .btn:hover {

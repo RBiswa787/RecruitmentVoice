@@ -15,7 +15,7 @@ const ProfilePageCand = () => {
            <CSidebar />
            <img src = {User} alt="" style={{
                     position:"absolute",
-                    left:"48%",
+                    left:"50%",
                     right:"30.56%",
                     top:"17%",
                     bottom:"76.24%",

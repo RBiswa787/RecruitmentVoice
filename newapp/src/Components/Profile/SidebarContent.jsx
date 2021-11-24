@@ -17,8 +17,8 @@ const SidebarContent = () => {
         </li>
                 
         <li>
-          <a href="#" class="active" >
-              <span class="item">My Profile</span>
+          <a href="#" class="active">
+              <span class="item" onClick = {handleClickActJob}>My Profile</span>
           </a>
         </li>
                 
